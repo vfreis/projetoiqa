@@ -19,23 +19,23 @@ int main(){
 
     printf("                         Ola, Mundo Cruel!!!\n\n");
 
-    printf("1º Oxigenio dissolvido: ");
+    printf("1Âº Oxigenio dissolvido: ");
     scanf("%lf", &ox);
-    printf("\n2º Coliformes termotolerantes: ");
+    printf("\n2Âº Coliformes termotolerantes: ");
     scanf("%lf", &cf);
-    printf("\n3º Potencial hidrogenionico-PH: ");
+    printf("\n3Âº Potencial hidrogenionico-PH: ");
     scanf("%lf", &ph);
-    printf("\n4º Demanda bioquimica de oxigenio: ");
+    printf("\n4Âº Demanda bioquimica de oxigenio: ");
     scanf("%lf", &dbo);
-    printf("\n5º Temperatura da agua: ");
+    printf("\n5Âº Temperatura da agua: ");
     scanf("%lf", &temp);
-    printf("\n6º Nitrogenio total: ");
+    printf("\n6Âº Nitrogenio total: ");
     scanf("%lf", &nt);
-    printf("\n7º Fosforo total: ");
+    printf("\n7Âº Fosforo total: ");
     scanf("%lf", &ft);
-    printf("\n8º Turbidez: ");
+    printf("\n8Âº Turbidez: ");
     scanf("%lf", &tu);
-    printf("\n9º Solidos totais: ");
+    printf("\n9Âº Solidos totais: ");
     scanf("%lf", &st);
     printf("\n\n");
 
@@ -81,7 +81,7 @@ int main(){
     return 0;
 }
 
-double f1 (double ox) //Função da oxigênio dissolvido
+double f1 (double ox) //FunÃ§Ã£o da oxigÃªnio dissolvido
 {
 	double a = 100.8, b = -106.0, c = -3745.0, f1 = 0;
 
@@ -99,7 +99,7 @@ double f2 (double cf) //Coliformes fecais
 	return f2;
 }
 
-double f3 (double ph) //Potencial Hidrogeniônico
+double f3 (double ph) //Potencial HidrogeniÃ´nico
 {
 	double f3 = 0;
 
@@ -136,7 +136,7 @@ double f4 (double dbo) //Demanda Bioquimica de Oxigenio
 	return f4;
 }
 
-double f5 (double temp) //Variação de temperatura
+double f5 (double temp) //VariaÃ§Ã£o de temperatura
 {
 	double f5 = 0;
 
